@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="genero.css">
+  <script src="genero.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Verificador de idade</h1>
+  </header>
+  <section>
+    <p>Ano de nascimento:
+      <input type="number" name="" id="idade">
+    </p>
+    <p>Gênero:
+      <input type="radio" name="genero" id="mas" value="masculino" checked>
+      <label for="mas">Masculino</label>
+      <input type="radio" name="genero" id="fem" value="feminino">
+      <label for="fem">Feminino</label>
+      <input type="radio" name="genero" id="heli" value="helicopter">
+      <label for="heli">Outro</label>
+    </p>
+    <p><input type="button" value="Verificar" onclick="carregar()"></p>
+    <div id="res">
+      Preencha os dados para o resultado
+    </div>
+    <div>
+      <img id="foto" src="https://image.freepik.com/free-icon/create-account_318-31332.jpg" alt=" "> 
+    </div>
+  </section>
+</body>
+</html>
